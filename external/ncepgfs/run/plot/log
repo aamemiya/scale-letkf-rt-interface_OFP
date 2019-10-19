@@ -1,0 +1,38 @@
+
+Grid Analysis and Display System (GrADS) Version 2.1.1.b0
+Copyright (C) 1988-2017 by George Mason University
+GrADS comes with ABSOLUTELY NO WARRANTY
+See file COPYRIGHT for more information
+
+Config: v2.1.1.b0 little-endian readline geotiff
+Issue 'q config' command for more detailed configuration information
+GX Package Initialization: Size = 11 8.5 
+Running in Batch mode
+Open Error:  Data file type invalid
+  --> The invalid description file record is: 
+  --> dtype grib2
+  The data file was not opened. 
+Syntax Error:  Invalid Operand 
+  'apcpsfc' not a variable or function name
+Operation Error:  Error from const function
+  Error ocurred at column 1
+DISPLAY error:  Invalid expression 
+  Expression = const(apcpsfc,-1e10,-u)
+Cannot plot color bar: No shading information
+Syntax Error:  Invalid Operand 
+  'msletmsl' not a variable or function name
+  Error ocurred at column 1
+DISPLAY error:  Invalid expression 
+  Expression = msletmsl*0.01
+Syntax Error:  Invalid Operand 
+  'msletmsl' not a variable or function name
+  Error ocurred at column 1
+DISPLAY error:  Invalid expression 
+  Expression = msletmsl*0.01
+Data Request Error:  File number out of range 
+  Variable = mask.2 
+Operation Error:  Error from maskout function
+  Error ocurred at column 1
+DISPLAY error:  Invalid expression 
+  Expression = maskout(mask.2(t=1),0.5-mask.2(t=1))+lon.2
+GX Package Terminated 
